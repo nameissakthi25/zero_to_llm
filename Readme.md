@@ -41,12 +41,11 @@ Single Neuron → MLP → RNN → LSTM → LSTM + Attention → Transformer
 
 | Model | Per-Character Loss | Notes |
 |-------|-------------------|-------|
-| Random Baseline | 3.83 | No learning |
 | Single Neuron | ~3.0 | Limited capacity |
 | MLP | ~2.5 | Better but no sequence modeling |
 | Vanilla RNN | ~1.28 | Learns character patterns |
 | LSTM | ~0.78 | Remembers longer context |
-| LSTM + Attention | ~0.60 | Focuses on relevant history |
+| LSTM/RNN + Attention | ~0.60 | Focuses on relevant history |
 | Transformer | ~0.70 | Parallel processing, competitive with LSTM |
 
 ## Sample Generated Text
